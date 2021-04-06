@@ -17,11 +17,11 @@ function App() {
         <Navbar bg="dark" variant="dark">
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link href="#home" to="/">Home</Nav.Link>
-            <Nav.Link href="#features" to="/about">About</Nav.Link>
-            <Nav.Link href="#pricing" to="/contact">Contact</Nav.Link>
-            <Nav.Link href="#pricing" to="/users">User List</Nav.Link>
-            <Nav.Link href="#pricing" to="/create">Create User</Nav.Link>
+            <Nav.Link to="/">Home</Nav.Link>
+            <Nav.Link to="/about">About</Nav.Link>
+            <Nav.Link to="/contact">Contact</Nav.Link>
+            <Nav.Link to="/users">User List</Nav.Link>
+            <Nav.Link to="/create">Create User</Nav.Link>
           </Nav>
         </Navbar>
         <Switch>
